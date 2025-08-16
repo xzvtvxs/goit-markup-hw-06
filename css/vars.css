@@ -1,0 +1,9 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-tex-color: #434455;
+  --primary-background-color: #fff;
+  --secondary-background-color: #2e2f42;
+  --tertiary-background-color: #f4f4fd;
+  --accent-color: #404bbf;
+  --base-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
