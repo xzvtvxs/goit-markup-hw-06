@@ -1,0 +1,39 @@
+.container {
+  max-width: 736px;
+  padding: 16px 0;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.flex-container {
+  display: flex;
+  gap: 120px;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  gap: 120px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.burger-menu-btn {
+  display: none;
+}
+
+.address-list-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.address-list-item {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #434455;
+}
