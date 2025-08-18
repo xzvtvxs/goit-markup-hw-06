@@ -616,6 +616,8 @@ input {
   background-image: url(../images/icons.svg#icon-send);
 } */
 
+/* MODAL */
+
 .backdrop {
   position: fixed;
   top: 0;

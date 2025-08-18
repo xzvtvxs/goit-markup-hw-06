@@ -50,6 +50,10 @@
   display: none;
 }
 
+.address {
+  font-style: normal;
+}
+
 .address-list-item:not(:last-child) {
   margin-bottom: 12px;
 }
