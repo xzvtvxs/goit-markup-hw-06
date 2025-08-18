@@ -22,6 +22,30 @@
   gap: 40px;
 }
 
+.navigation-link {
+  padding: 24px 0;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.current {
+  position: relative;
+  color: var(--accent-color);
+}
+
+.current::after {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  content: "";
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+}
+
 .burger-menu-btn {
   display: none;
 }
@@ -30,10 +54,139 @@
   margin-bottom: 12px;
 }
 
-.address-list-item {
+.address-link {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: #434455;
+}
+
+/* HERO */
+
+.hero-section {
+  padding: 112px 136px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/tablet/background-image/Dark-bg-min.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/tablet/background-image/Dark-bg@2x-min.jpg);
+  }
+}
+
+.hero-header {
+  margin-bottom: 36px;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+/* FEATURES */
+
+.features-list {
+  flex-wrap: wrap;
+  gap: 72px 24px;
+}
+
+.features-list-items {
+  flex-basis: calc((100% - 24px) / 2);
+  width: 356px;
+}
+
+.features-icon-container {
+  display: none;
+}
+
+.features-header {
+  margin-bottom: 8px;
+}
+
+.features-header {
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+/* OUR TEAM */
+
+.team-list {
+  flex-wrap: wrap;
+  gap: 64px 24px;
+  justify-content: center;
+}
+
+.employee-card {
+  flex-basis: calc((100% - 24px) / 2);
+  max-width: 264px;
+}
+
+/* PORTFOLIO */
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px 24px;
+}
+
+.portfolio-card {
+  flex-basis: calc((100% - 24px) / 2);
+  max-width: 356px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+/* FOOTER */
+
+.container.footer-cantainer {
+  margin: 0 auto;
+}
+
+.footer-cantainer {
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
+}
+
+.footer-paragraph {
+  max-width: 264px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 16px;
+}
+
+.subscribe-form-container {
+  margin-top: 72px;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-subscribe-input {
+  width: 264px;
+  height: 40px;
+  margin-bottom: 0;
+}
+
+/* BURGER MENU */
+
+.mobile-menu {
+  display: none;
 }
