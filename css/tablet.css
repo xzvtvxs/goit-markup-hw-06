@@ -151,10 +151,6 @@
 
 /* FOOTER */
 
-.container.footer-cantainer {
-  margin: 0 auto;
-}
-
 .footer-cantainer {
   display: flex;
   padding: 0;
