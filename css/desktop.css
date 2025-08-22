@@ -19,10 +19,6 @@
   gap: 76px;
 }
 
-.nav-list-item:not(:last-child) {
-  margin-right: 40px;
-}
-
 .navigation-link {
   padding-top: 24px;
   padding-bottom: 24px;
